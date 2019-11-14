@@ -10,7 +10,7 @@ else
     sudo apt-get install python3.6
 fi
 
-npm install body-parser mongoose bcryptjs express jsonwebtoken
+sudo npm install body-parser mongoose bcryptjs express jsonwebtoken
 
 sudo install.py dhcpcd
 
