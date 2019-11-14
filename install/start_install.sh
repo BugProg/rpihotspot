@@ -1,16 +1,16 @@
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt install dnsmasq hostapd
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt install dnsmasq hostapd -y
 sudo systemctl stop dnsmasq
 sudo systemctl stop hostapd
 
 if command -v python &>/dev/null; then
     echo Python 3 is installed
 else
-    sudo apt-get install python3.6
+    sudo apt-get install python3.6 -y
 fi
 
-sudo npm install body-parser mongoose bcryptjs express jsonwebtoken
+sudo npm install body-parser mongoose bcryptjs express jsonwebtoken -y
 
 sudo install.py dhcpcd
 
