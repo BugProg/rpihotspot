@@ -16,6 +16,8 @@ sudo install.py dhcpcd
 
 sudo service dhcpcd restart
 
+//openssl
+
 
 sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
 sudo install.py dnsmasq 
