@@ -6,3 +6,4 @@ Have to :
 -uninstall script
 -add api command to list users, kick + ban them (time limit)
 - make the interface (angular6)
+- password change
